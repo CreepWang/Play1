@@ -33,7 +33,7 @@ public class ccc {
         String filePath = ccc.class.getClassLoader().getResource("pz.json").getPath();
         // 将路径中的 %20 替换为空格
         filePath = filePath.replace("%20", " ");
-        File jsonFile = new File("pz.json");
+        File jsonFile = new File(filePath);
         ObjectMapper objectMapper = new ObjectMapper();
         String jsonStr = objectMapper.writeValueAsString(objectMapper.readValue(jsonFile, Object.class));
 
