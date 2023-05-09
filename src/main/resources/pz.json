@@ -1,0 +1,102 @@
+[
+  {
+  "id": "1",
+  "attrId": "zddr",
+  "cellName": "终端类型",
+  "cellIdentificationof": "A1",
+  "cellIndex": 1,
+  "cellRule": "notnull_@;inwhich_[台式计算机(含一体机和台式工作站),便携式计算机(含移动工作站),平板式微型计算机(含移动办公计算产品),其他计算机产品(含瘦客户端等)]",
+  "codeName": "",
+  "pageNo": 1
+},
+  {
+    "id": "2",
+    "attrId": "zddr",
+    "cellName": "采购年月",
+    "cellIdentificationof": "A2",
+    "cellIndex": 2,
+    "cellRule": "notnull_@;isValidDateYM_@",
+    "codeName": "",
+    "pageNo": 1
+  },
+  {
+    "id": "3",
+    "attrId": "zddr",
+    "cellName": "终端品牌",
+    "cellIdentificationof": "A3",
+    "cellIndex": 3,
+    "cellRule": "notnull_@;inwhich_[浪潮,曙光,小米,中科,西门子]",
+    "codeName": "",
+    "pageNo": 1
+  },
+  {
+    "id": "4",
+    "attrId": "zddr",
+    "cellName": "采购单价",
+    "cellIdentificationof": "A4",
+    "cellIndex": 4,
+    "cellRule": "notnull_@;isnum_@;minmum_0",
+    "codeName": "",
+    "pageNo": 1
+  },
+  {
+    "id": "5",
+    "attrId": "zddr",
+    "cellName": "主要用途",
+    "cellIdentificationof": "A5",
+    "cellIndex": 5,
+    "cellRule": "notnull_@;inwhich_[办公应用,业务终端]",
+    "codeName": "",
+    "pageNo": 1
+  },
+  {
+    "id": "6",
+    "attrId": "zddr",
+    "cellName": "使用人姓名",
+    "cellIdentificationof": "A6",
+    "cellIndex": 6,
+    "cellRule": "notnull_@",
+    "codeName": "",
+    "pageNo": 1
+  },
+  {
+    "id": "7",
+    "attrId": "zddr",
+    "cellName": "使用频率",
+    "cellIdentificationof": "A7",
+    "cellIndex": 7,
+    "cellRule": "notnull_@;inwhich_[每天使用,基本不用,偶尔使用]",
+    "codeName": "",
+    "pageNo": 1
+  },
+  {
+    "id": "8",
+    "attrId": "zddr",
+    "cellName": "是否涉密",
+    "cellIdentificationof": "A8",
+    "cellIndex": 8,
+    "cellRule": "",
+    "codeName": "",
+    "pageNo": 1
+  },
+  {
+    "id": "9",
+    "attrId": "zddr",
+    "cellName": "部署位置",
+    "cellIdentificationof": "A9",
+    "cellIndex": 9,
+    "cellRule": "notnull_@",
+    "codeName": "",
+    "pageNo": 1
+  },
+  {
+    "id": "10",
+    "attrId": "zddr",
+    "cellName": "使用系统名称",
+    "cellIdentificationof": "A10",
+    "cellIndex": 10,
+    "cellRule": "",
+    "codeName": "",
+    "pageNo": 1
+  }
+]
